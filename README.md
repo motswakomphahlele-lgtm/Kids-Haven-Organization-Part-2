@@ -50,7 +50,7 @@ The site serves as a digital gateway for:
 - **External Integrations**:
   - Embedded YouTube video introducing Kids Haven
   - Future plans for Google Maps integration
-
+git commit -m "Added JavaScript validation to enquiry form"
 ---
 
 ## 📷 Screenshots
