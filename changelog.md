@@ -23,6 +23,14 @@ This changelog documents the development milestones and improvements made to the
 - Improved accessibility with alt text and semantic tags
 
 ## [1.4.0] - 2025-11-16
+- All inline styles were moved to kidshaven.css for consistency.
+- Shared styles include fonts, colors, layout, buttons, and responsive rules.
+- CSS file includes default styles for body, headings, links, and containers.
+-Team section styled with cards
+-Form and social links styled
+-Service blocks styled with consistent layout
+-Form fields and buttons styled
+-Quotes styled with custom fonts and spacing
 - Implemented JavaScript form validation for Contact and Enquiry pages
 - Added meta tags and keyword-rich headings for SEO
 - Finalized README with full project overview and setup instructions
