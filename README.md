@@ -53,9 +53,7 @@ The site serves as a digital gateway for:
 git commit -m "Added JavaScript validation to enquiry form"
 ---
 
-## 📷 Screenshots
-*(Add screenshots here with captions)*
-
+## Additional Notes
 - Homepage with testimonials
 - Contact Us form
 - Team section with image cards
@@ -67,6 +65,16 @@ To run the project locally:
 git clone https://github.com/your-username/kids-haven.git
 cd kids-haven
 open index.html
+
+**Additional Notes**
+- All inline styles were moved to kidshaven.css for consistency.
+- Shared styles include fonts, colors, layout, buttons, and responsive rules.
+- CSS file includes default styles for body, headings, links, and containers.
+-Team section styled with cards
+-Form and social links styled
+-Service blocks styled with consistent layout
+-Form fields and buttons styled
+-Quotes styled with custom fonts and spacing
 
 ## REFERENCES
 Kids Haven. (n.d.). *About Us*. Retrieved November 16, 2025, from https://kidshaven.co.za
