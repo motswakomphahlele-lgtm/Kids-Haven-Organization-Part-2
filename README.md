@@ -51,12 +51,32 @@ The site serves as a digital gateway for:
   - Embedded YouTube video introducing Kids Haven
   - Future plans for Google Maps integration
 git commit -m "Added JavaScript validation to enquiry form"
+
+**Responsive & Downloadable Images**
+This project now supports responsive images that are also click-to-download enabled.
+ How It Works:
+- All <img> elements are styled to be fully responsive.
+- A JavaScript script dynamically wraps each image in a download link.
+- Users can click any image to download it directly.
+**Files Involved:**
+- style.css: Contains responsive image styles and hover effects.
+- script.js: Automatically wraps all images in download anchors on page load.
+- index.html: No manual changes needed to image tags.
+
 ---
 
 ## Additional Notes
 - Homepage with testimonials
 - Contact Us form
 - Team section with image cards
+- All inline styles were moved to kidshaven.css for consistency.
+- Shared styles include fonts, colors, layout, buttons, and responsive rules.
+- CSS file includes default styles for body, headings, links, and containers.
+-Team section styled with cards
+-Form and social links styled
+-Service blocks styled with consistent layout
+-Form fields and buttons styled
+-Quotes styled with custom fonts and spacing
 ## Setup Instructions
 
 To run the project locally:
@@ -66,17 +86,7 @@ git clone https://github.com/your-username/kids-haven.git
 cd kids-haven
 open index.html
 
-**Additional Notes**
-- All inline styles were moved to kidshaven.css for consistency.
-- Shared styles include fonts, colors, layout, buttons, and responsive rules.
-- CSS file includes default styles for body, headings, links, and containers.
--Team section styled with cards
--Form and social links styled
--Service blocks styled with consistent layout
--Form fields and buttons styled
--Quotes styled with custom fonts and spacing
-
-## REFERENCES
+**REFERENCES**
 Kids Haven. (n.d.). *About Us*. Retrieved November 16, 2025, from https://kidshaven.co.za
 
 W3Schools. (n.d.). *HTML Forms*. Retrieved November 16, 2025, from https://www.w3schools.com/html/html_forms.asp
