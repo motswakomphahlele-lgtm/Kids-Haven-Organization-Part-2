@@ -64,7 +64,16 @@ This project now supports responsive images that are also click-to-download enab
 - index.html: No manual changes needed to image tags.
 
 ---
+### Contact & Enquiry Forms
 
+The Contact Us and Enquiry pages now use JavaScript to handle form submissions without relying on a backend server.
+
+- Forms validate key fields before submission.
+- A success message appears after valid input.
+- No data is sent to a server — this is a simulated submission for demonstration purposes.
+- Buttons are styled for responsiveness and accessibility.
+
+To enable real submissions, you can integrate a service like [Formspree](https://formspree.io) or [Google Forms].
 ## Additional Notes
 - Homepage with testimonials
 - Contact Us form
