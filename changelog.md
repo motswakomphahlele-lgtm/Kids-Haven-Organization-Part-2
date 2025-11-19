@@ -30,6 +30,15 @@ This changelog documents the development milestones and improvements made to the
 -Form and social links styled
 -Service blocks styled with consistent layout
 -Form fields and buttons styled
+
+## [1.5.0] 2025-11-19
+ Responsive Images with Download-on-Click
+Type: Frontend Enhancement
+Description:
+- Implemented responsive image styling using CSS (max-width: 100%, height: auto) to ensure images scale properly across devices.
+- Added hover effects for interactivity (transform: scale(1.05)).
+- Integrated JavaScript logic to automatically wrap all <img> elements in <a> tags with the download attribute, enabling users to download images by clicking on them.
+- Ensured compatibility with existing HTML structure without requiring manual changes to each image.
 -Quotes styled with custom fonts and spacing
 - Implemented JavaScript form validation for Contact and Enquiry pages
 - Added meta tags and keyword-rich headings for SEO
