@@ -44,3 +44,21 @@ Description:
 - Added meta tags and keyword-rich headings for SEO
 - Finalized README with full project overview and setup instructions
 - Created Harvard-style references in `REFERENCES.md`
+## [19 November 2025]– Contact & Enquiry Form Upgrade
+
+### Updated
+- Replaced broken form actions (`submit_form.php` and `submit_enquiry.php`) with JavaScript-based handling to prevent "Page Not Available" errors.
+- Added `id="contactForm"` to the Contact Us form for proper JavaScript targeting.
+- Implemented client-side validation for required fields (name, email, subject, message).
+- Displayed a success message (`#responseMessage`) upon valid submission.
+- Styled the Send buttons for responsiveness and hover effects using CSS.
+- Ensured mobile-friendly layout and accessibility improvements.
+
+### Fixed
+- Send buttons now work without needing a backend server.
+- Removed outdated `action` and `method` attributes from both forms.
+
+### Notes
+- These changes improve user experience and allow form submissions to be simulated without server-side processing.
+- Future enhancement: connect forms to Formspree or Google Forms for real email delivery.
+
